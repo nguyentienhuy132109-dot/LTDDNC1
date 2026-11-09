@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TẠO TÀI KHOẢN RENTCONNECT"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#1A237E"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/edtRegName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Họ và tên"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/edtRegEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/edtRegPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số điện thoại"
+        android:inputType="phone"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/edtRegPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn vai trò người dùng:"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <RadioGroup
+        android:id="@+id/rgRole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="24dp">
+
+        <RadioButton
+            android:id="@+id/rbTenant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Người thuê (Tenant)"
+            android:checked="true"
+            android:layout_marginEnd="16dp" />
+
+        <RadioButton
+            android:id="@+id/rbLandlord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chủ trọ (Landlord)" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnRegisterSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOÀN TẤT ĐĂNG KÝ"
+        android:backgroundTint="#1A237E"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

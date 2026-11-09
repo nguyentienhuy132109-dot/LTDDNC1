@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BÁO CÁO SỰ CỐ KHẨN CẤP (BM06)"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#1A237E"
+        android:layout_marginBottom="12dp" />
+
+    <Spinner
+        android:id="@+id/spCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/ticket_categories"
+        android:layout_marginBottom="8dp" />
+
+    <Spinner
+        android:id="@+id/spPriority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/ticket_priorities"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edtTicketDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mô tả hiện trường sự cố..."
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnSendTicket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GỬI PHIẾU BÁO HỎNG (TICKET)"
+        android:backgroundTint="#F57C00"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lịch sử sự cố đã báo cáo:"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTenantTickets"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

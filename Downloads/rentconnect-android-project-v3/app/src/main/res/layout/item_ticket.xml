@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="[suspicious link removed]"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="8dp"
+    android:layout_marginVertical="6dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="3dp"
+    tools:ignore="NamespaceTypo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp">
+
+            <TextView
+                android:id="@+id/tvTicketCategoryPriority"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="[Điện] - Ưu tiên: Rất gấp"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#D32F2F" />
+
+            <TextView
+                android:id="@+id/tvTicketStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Trạng thái: PENDING"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="#F57C00"
+                android:background="#FFF3E0"
+                android:paddingHorizontal="8dp"
+                android:paddingVertical="4dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvTicketDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mô tả sự cố..."
+            android:textSize="14sp"
+            android:textColor="#333333"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnUpdateTicketStatus"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="XỬ LÝ NGAY"
+            android:textSize="12sp"
+            android:backgroundTint="#1976D2"
+            android:textColor="#FFFFFF"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

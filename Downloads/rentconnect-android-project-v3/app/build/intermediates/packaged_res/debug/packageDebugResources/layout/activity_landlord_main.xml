@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:id="@+id/tvLandlordHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BẢNG QUẢN LÝ CHỦ TRỌ"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#1A237E"
+        android:layout_marginBottom="12dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+
+        <Button
+            android:id="@+id/btnAddRoom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="+ Đăng Phòng Mới"
+            android:textSize="11sp"
+            android:backgroundTint="#1A237E"
+            android:layout_marginEnd="4dp" />
+
+        <Button
+            android:id="@+id/btnManageBookings"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#0288D1"
+            android:text="Duyệt Lịch Hẹn"
+            android:textSize="11sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="12dp">
+
+        <Button
+            android:id="@+id/btnLandlordUtility"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Chốt Điện Nước"
+            android:textSize="11sp"
+            android:backgroundTint="#388E3C"
+            android:layout_marginEnd="4dp" />
+
+        <Button
+            android:id="@+id/btnLandlordInvoice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Duyệt Hóa Đơn"
+            android:textSize="11sp"
+            android:backgroundTint="#7B1FA2"
+            android:layout_marginEnd="4dp" />
+
+        <Button
+            android:id="@+id/btnLandlordTicket"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Xử Lý Sự Cố"
+            android:textSize="11sp"
+            android:backgroundTint="#F57C00" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Danh Sách Phòng Trọ Thuộc Quản Lý:"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_marginBottom="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvLandlordRooms"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnLandlordLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng Xuất"
+        android:backgroundTint="#D32F2F" />
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rentconnect">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+
+    <application
+        android:allowBackup="true"
+        android:label="RentConnect"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        <activity
+            android:name=".activities.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activities.RegisterActivity" />
+        <activity android:name=".activities.TenantMainActivity" />
+        <activity android:name=".activities.LandlordMainActivity" />
+        <activity android:name=".activities.RoomDetailActivity" />
+        <activity android:name=".activities.BookingActivity" />
+        <activity android:name=".activities.AddRoomActivity" />
+        <activity android:name=".activities.TenantContractActivity" />
+        <activity android:name=".activities.UtilityRecordActivity" />
+        <activity android:name=".activities.TenantInvoiceActivity" />
+        <activity android:name=".activities.TenantTicketActivity" />
+        <activity android:name=".activities.LandlordBookingActivity" />
+        <activity android:name=".activities.LandlordInvoiceActivity" />
+        <activity android:name=".activities.LandlordTicketActivity" />
+        <activity android:name=".activities.TenantBookingListActivity" />
+        <activity android:name=".activities.LandlordBookingListActivity" />
+
+    </application>
+</manifest>

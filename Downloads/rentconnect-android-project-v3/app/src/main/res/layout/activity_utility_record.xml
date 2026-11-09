@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CHỐT CHỈ SỐ ĐIỆN NƯỚC (BM04)"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#1A237E"
+        android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/edtMonthYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kỳ chốt (Tháng/Năm, VD: 11/2026)"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edtOldElectric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chỉ số Điện cũ (kWh)"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edtNewElectric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chỉ số Điện mới (kWh)"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edtOldWater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chỉ số Nước cũ (m3)"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/edtNewWater"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Chỉ số Nước mới (m3)"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnCaptureMeterPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="📷 CHỤP ẢNH CÔNG TƠ ĐIỆN NƯỚC"
+        android:backgroundTint="#0288D1"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnSaveUtility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💾 LƯU CHỈ SỐ (HỖ TRỢ OFFLINE)"
+        android:backgroundTint="#388E3C" />
+</LinearLayout>

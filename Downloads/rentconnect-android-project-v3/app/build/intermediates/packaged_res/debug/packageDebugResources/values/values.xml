@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ticket_categories">
+        <item>Điện</item>
+        <item>Nước</item>
+        <item>Nội thất</item>
+        <item>Kết cấu nhà</item>
+        <item>An ninh &amp; Khác</item>
+    </string-array>
+    <string-array name="ticket_priorities">
+        <item>Bình thường</item>
+        <item>Gấp</item>
+        <item>Rất gấp</item>
+    </string-array>
+</resources>

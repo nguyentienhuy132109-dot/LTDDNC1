@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-debug-33:\\layout_activity_landlord_main.xml.flat",
+        "source": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-main-35:\\layout\\activity_landlord_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-debug-33:\\layout_activity_room_detail.xml.flat",
+        "source": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-main-35:\\layout\\activity_room_detail.xml"
+    },
+    {
+        "merged": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-debug-33:\\layout_activity_booking.xml.flat",
+        "source": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-main-35:\\layout\\activity_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-debug-33:\\layout_activity_landlord_ticket.xml.flat",
+        "source": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-main-35:\\layout\\activity_landlord_ticket.xml"
+    },
+    {
+        "merged": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-debug-33:\\layout_activity_tenant_ticket.xml.flat",
+        "source": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-main-35:\\layout\\activity_tenant_ticket.xml"
+    },
+    {
+        "merged": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-debug-33:\\layout_activity_landlord_invoice.xml.flat",
+        "source": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-main-35:\\layout\\activity_landlord_invoice.xml"
+    },
+    {
+        "merged": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-debug-33:\\layout_activity_tenant_contract.xml.flat",
+        "source": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-main-35:\\layout\\activity_tenant_contract.xml"
+    },
+    {
+        "merged": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-debug-33:\\layout_activity_tenant_booking_list.xml.flat",
+        "source": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-main-35:\\layout\\activity_tenant_booking_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-debug-33:\\layout_activity_register.xml.flat",
+        "source": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-main-35:\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-debug-33:\\layout_activity_add_room.xml.flat",
+        "source": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-main-35:\\layout\\activity_add_room.xml"
+    },
+    {
+        "merged": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-debug-33:\\layout_activity_utility_record.xml.flat",
+        "source": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-main-35:\\layout\\activity_utility_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-debug-33:\\layout_activity_tenant_invoice.xml.flat",
+        "source": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-main-35:\\layout\\activity_tenant_invoice.xml"
+    },
+    {
+        "merged": "com.example.rentconnect.app-debug-33:/layout_activity_tenant_main.xml.flat",
+        "source": "com.example.rentconnect.app-main-35:/layout/activity_tenant_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-debug-33:\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-main-35:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-debug-33:\\layout_activity_tenant_main.xml.flat",
+        "source": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-main-35:\\layout\\activity_tenant_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-debug-33:\\layout_item_booking.xml.flat",
+        "source": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-main-35:\\layout\\item_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-debug-33:\\layout_item_invoice.xml.flat",
+        "source": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-main-35:\\layout\\item_invoice.xml"
+    },
+    {
+        "merged": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-debug-33:\\layout_item_room.xml.flat",
+        "source": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-main-35:\\layout\\item_room.xml"
+    },
+    {
+        "merged": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-debug-33:\\layout_activity_landlord_booking.xml.flat",
+        "source": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-main-35:\\layout\\activity_landlord_booking.xml"
+    },
+    {
+        "merged": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-debug-33:\\layout_item_ticket.xml.flat",
+        "source": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-main-35:\\layout\\item_ticket.xml"
+    },
+    {
+        "merged": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-debug-33:\\layout_activity_landlord_booking_list.xml.flat",
+        "source": "C:\\Users\\Huy\\.gradle\\daemon\\9.0-milestone-1\\com.example.rentconnect.app-main-35:\\layout\\activity_landlord_booking_list.xml"
+    }
+]

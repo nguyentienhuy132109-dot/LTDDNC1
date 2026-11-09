@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ĐĂNG TIN PHÒNG TRỌ MỚI (BM01)"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1A237E"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/edtAddTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tiêu đề tin đăng (VD: Phòng 302 Ban Công)"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edtAddCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tỉnh / Thành phố"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edtAddAddressDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Địa chỉ chi tiết (Số nhà, đường...)"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edtAddArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Diện tích (m2)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edtAddCapacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sức chứa tối đa (người)"
+            android:inputType="number"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edtAddPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Giá thuê (VNĐ/tháng)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edtAddDeposit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tiền cọc yêu cầu (VNĐ)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edtAddElecPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Đơn giá Điện (VNĐ/kWh)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edtAddWaterPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Đơn giá Nước (VNĐ/khối)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edtAddServiceFee"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phí dịch vụ chung (VNĐ/tháng)"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/edtAddAmenities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tiện ích (Điều hòa, Nóng lạnh, Wifi...)"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnSaveRoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LƯU TIN ĐĂNG PHÒNG TRỌ"
+            android:backgroundTint="#1A237E" />
+    </LinearLayout>
+</ScrollView>
